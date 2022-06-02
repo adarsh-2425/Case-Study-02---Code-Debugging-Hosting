@@ -1,4 +1,7 @@
 //Part #1 Point 3
 //Part #1 Point 4
-//Part #1 Point 5
+//Part #1 Point 5 changed server address from 3000 to 5000
 //Part #1 Point 2 install express
+
+//Part #2 Point 7 added body-parser
+//Part #2 Point 10 renamed param to params

@@ -3,9 +3,9 @@ const path = require ('path');
 const cors = require('cors');
 
 
-//Part #1 Point 5
+//Part #2 Point 7
 const bodyParser = require('body-parser');
-//Part #1 Point 5
+//Part #2 Point 7
 
 
 
@@ -68,7 +68,8 @@ app.get('/',function(req,res){
 
 
 
-
+//Part 1 Point 5
 app.listen(5000,()=>{
-    console.log("Server Ready on 3000");
+    console.log("Server Ready on 5000");
 });
+//Part 1 Point 5

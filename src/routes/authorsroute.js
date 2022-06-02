@@ -1,6 +1,6 @@
 const express = require('express'); 
 const authorsRouter = express.Router();
-// const authors = require('../data/authors');
+const authors = require('../data/authors');
 const authordata = require('../model/AuthorModel');
 
 
@@ -9,7 +9,8 @@ const authordata = require('../model/AuthorModel');
 authorsRouter.get('/',function(req,res){
 
     authordata.find() 
-    .then(function (authors) {
+    //updated then function(authors) to function(). after updating author data is showing properly
+    .then(function () {
 
     res.render('authors',{
         authors

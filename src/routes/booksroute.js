@@ -1,6 +1,6 @@
 const express = require('express'); 
 const booksRouter = express.Router();
-// const books = require('../data/books');
+ const books = require('../data/books');
 const bookdata = require('../model/BookModel');
 
 
@@ -9,7 +9,8 @@ const bookdata = require('../model/BookModel');
 booksRouter.get('/',function(req,res){
 
     bookdata.find() 
-    .then(function (books) {
+    //updated then function(books) to function(). after updating book data is showing properly
+    .then(function () {
 
     res.render('books',{
         books
