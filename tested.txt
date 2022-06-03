@@ -5,3 +5,5 @@
 
 //Part #2 Point 7 added body-parser
 //Part #2 Point 10 renamed param to params
+//updated then function(books) to function(). after updating book data is showing properly in booksroute.js
+//updated then function(author) to function(). after updating author data is showing properly authorsroute.js
