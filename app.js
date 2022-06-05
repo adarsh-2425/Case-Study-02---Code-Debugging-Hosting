@@ -53,6 +53,7 @@ app.set('view engine','ejs');
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.json());
 app.use(express.static(path.join(__dirname , '/public'))); 
+// app.use('./public/images/a1.jpg',express.static('uploads'))
 
 app.use('/login',loginRouter); 
 app.use('/signup',signupRouter); 

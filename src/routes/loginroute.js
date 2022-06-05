@@ -38,6 +38,7 @@ loginRouter.get("/check",function(req,res){
         };
 
         console.log(flag);
+   
 
 if(flag==true){
     // alert("User Verified.Click to continue");

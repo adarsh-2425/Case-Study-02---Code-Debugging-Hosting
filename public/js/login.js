@@ -1,4 +1,4 @@
-var mail=document.getElementById("mail");
+var mail=document.getElementById("uid");
 var fb=document.getElementById("feedback");
 
 var pw=document.getElementById("pwd");
