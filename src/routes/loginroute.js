@@ -15,8 +15,8 @@ loginRouter.get("/check",function(req,res){
 
     //Part #2 Point 10
         //changed req.param("uid") to req.params.uid
-        uid:req.params.uid,
-        pwd:req.params.pwd
+        uid:req.param("uid"),
+        pwd:req.param("pwd")
     };
     //Part #2 Point 10
     
